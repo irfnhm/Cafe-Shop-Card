@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/wrapper_margin"
+        android:orientation="vertical">
+
+        <!--The image has been download from here:
+        http://www.equallovecampaign.com/editorials/gloria-jeans-a-twitter-storm-in-a-coffee-cup/-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/branding_height"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:background="@drawable/banner"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/desc_bottom_margin"
+                android:layout_marginLeft="@dimen/top_left_margin"
+                android:layout_marginTop="@dimen/top_left_margin"
+                android:text="@string/description"
+                android:textSize="@dimen/desc_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/top_left_margin"
+                android:layout_marginTop="@dimen/top_left_margin"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/address"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/top_left_margin"
+                android:layout_marginTop="@dimen/top_left_margin"
+                android:drawableLeft="@drawable/calendar_clock"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/hours"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/top_left_margin"
+                android:layout_marginTop="@dimen/top_left_margin"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/contact"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

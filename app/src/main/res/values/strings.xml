@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hamson\'s Cafe</string>
+    <string name="description">Your favourite hangout destination for coffee and conversations.</string>
+    <string name="address">Srinagar, Jammu and Kashmir</string>
+    <string name="hours">8AM - 9:30PM</string>
+    <string name="contact">+91 9419 660396</string>
+</resources>
